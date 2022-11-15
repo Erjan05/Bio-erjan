@@ -1,0 +1,58 @@
+body{
+    background: url(./1644968674_1-fikiwiki-com-p-krasivie-kartinki-4k-na-telefon-1.jpg);
+    border: 3px solid rgb(6, 161, 6);
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    font-family: 'Arima', cursive;
+    background-color: rgb(206, 35, 35);
+}
+
+
+img{
+    width: 150px;
+    border: 3px solid rgb(23, 141, 219);
+    border-radius: 50px;
+}
+
+h2{
+    color: rgb(134, 189, 33);
+}
+b{
+    color: rgb(138, 26, 26);
+    font-weight: bold;
+}
+.main{
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.links{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid red;
+    border-width: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    max-width: 320px;
+    background-color: #121a05;
+    transition: 2s;
+}
+.links:hover{
+    background-color: aliceblue;
+    transition: 2s;
+    border-radius: 222px 222px 222px 222px;
+}
+a {
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+}
+
+a:hover{
+color: #000;
+}
